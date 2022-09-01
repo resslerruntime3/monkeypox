@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: ./../Dockerfile
+      args:
+        SCRIPT_DIR: "social_media"
+    environment:
+      TWITTER_KEY: "foo"
+      TWITTER_SECRET: "foo"
+      TWITTER_TOKEN: "foo"
+      TWITTER_TOKEN_SECRET: "foo"
+      CASE_DATA_URL: "foo"

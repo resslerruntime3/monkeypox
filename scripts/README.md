@@ -5,6 +5,7 @@ This folder contains analytics and helper scripts, configuration for their runti
 The analysis performed by the scripts in this folder includes:
 * Calculating risk of re-identification
 * Comparing G.h data to CDC and WHO data
+* Sharing G.h case count summaries via social media
 
 ## Use
 
