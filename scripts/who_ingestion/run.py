@@ -41,7 +41,6 @@ def format_data(data: list[dict[str, str|int|None]]) -> tuple[str, str]:
 		csv_writer.writeheader()
 		for row in data:
 			csv_writer.writerow(row)
-		csv_data = csv_io.getvalue()
 	except Exception:
 		logging.exception("Something went wrong formatting data")
 	return json_data, csv_io.getvalue()
