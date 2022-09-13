@@ -12,6 +12,7 @@ from typing import Optional
 
 import boto3
 from bs4 import BeautifulSoup
+import click
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
